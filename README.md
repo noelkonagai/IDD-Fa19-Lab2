@@ -30,11 +30,11 @@ Include your responses to the bold questions below. Include snippets of code tha
 
 I changed the following bit of the code, where I doubled the numbers to play the song twice as fast.
 
-'''Java
+```java
 int noteDurations[] = {
   8, 16, 16, 8, 8, 8, 8, 8
 };
-'''
+```
  
 **b. What song is playing?**
 Star Wars
