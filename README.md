@@ -27,9 +27,17 @@ Include your responses to the bold questions below. Include snippets of code tha
 ## Part D. Make your Arduino sing!
 
 **a. How would you change the code to make the song play twice as fast?**
+
+I changed the following bit of the code, where I doubled the numbers to play the song twice as fast.
+
+'''Java
+int noteDurations[] = {
+  8, 16, 16, 8, 8, 8, 8, 8
+};
+'''
  
 **b. What song is playing?**
-
+Star Wars
 
 ## Part E. Make your own timer
 
