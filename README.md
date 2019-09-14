@@ -29,6 +29,33 @@ lcd.print("My name is Noel!");
  
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
 
+```java
+// include the library code:
+#include <LiquidCrystal.h>
+
+// initialize the library with the numbers of the interface pins
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+
+int sensorPin = A0;    // select the input pin for the potentiometer
+int sensorValue = 0;  // variable to store the value coming from the sensor
+float inputVoltage = 0.0;
+
+void setup() {
+  // set up the LCD's number of columns and rows:
+  lcd.begin(16, 2);
+  lcd.print("Voltage:");
+}
+
+void loop() {
+  // read the value from the sensor:
+  sensorValue = analogRead(sensorPin);
+  inputVoltage = (sensorValue * 5.0) / 1024.0; // converting the 10-bit reading to actual volts
+  lcd.setCursor(0,1);
+  lcd.print(inputVoltage);
+  delay(300); // to enhance readability
+}
+```
+
 
 ## Part C. Using a time-based digital sensor
 
