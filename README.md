@@ -14,7 +14,7 @@ According to the [fact sheet](https://cdn-shop.adafruit.com/product-files/181/p1
 
 **b. What voltage level do you need to power the display backlight?**
 
-According to the same fact sheet, I need an adjustable voltage with a maximum of 5V.
+According to the same fact sheet, I need an adjustable voltage, for which I chose a 3V input.
    
 **c. What was one mistake you made when wiring up the display? How did you fix it?**
 
