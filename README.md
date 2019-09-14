@@ -4,17 +4,28 @@ Include your responses to the bold questions below. Include snippets of code tha
 
 ## Part A. Solder your LCD panel
 
-**Take a picture of your soldered panel and add it here!**
+![Soldered LCD](https://github.com/noelkonagai/interactive-devices/blob/master/Lab%202/lab2_soldering.jpeg "Soldered LCD")
 
 ## Part B. Writing to the LCD
  
 **a. What voltage level do you need to power your display?**
 
+According to the [fact sheet](https://cdn-shop.adafruit.com/product-files/181/p181.pdf) I need 5V to power the display.
+
 **b. What voltage level do you need to power the display backlight?**
+
+According to the same fact sheet, I need an adjustable voltage with a maximum of 5V.
    
 **c. What was one mistake you made when wiring up the display? How did you fix it?**
 
+I got everything right the first time.
+
 **d. What line of code do you need to change to make it flash your name instead of "Hello World"?**
+
+Changing `lcd.print()` alters what gets displayed.
+```java
+lcd.print("My name is Noel!");
+```
  
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
 
