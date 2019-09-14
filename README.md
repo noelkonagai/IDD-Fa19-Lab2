@@ -29,6 +29,11 @@ lcd.print("My name is Noel!");
  
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
 
+In order to achieve this circuit, I changed the circuit design by integrating a 10kOhm resistor in lieu of the potentiometer that served to adjust the contrast of the LCD. Once I freed up the potentiometer, I integrated it again in the circuit with 5V as input, the middle pin connected to the A0 pin, and the GND pin to ground.
+
+Here is a working [video](https://youtu.be/2GSZCz1kAis) of the voltmeter.
+
+
 ```java
 // include the library code:
 #include <LiquidCrystal.h>
@@ -55,7 +60,6 @@ void loop() {
   delay(300); // to enhance readability
 }
 ```
-
 
 ## Part C. Using a time-based digital sensor
 
