@@ -85,4 +85,8 @@ Star Wars
 
 **a. Make a short video showing how your timer works, and what happens when time is up!**
 
+I decided to combine the three circuits that I made during this lab into this Digital Timer. I used the LCD to display instructions and the time left. I used the rotary encoder to enable the user to set a time from which the user may wish to count backwards from. Once time is up, I use the speaker to play a melody to indicate to the user that time is up. Then I use the LCD to display instructions how to resume a new session.
+
+[link to video](https://youtu.be/31LO1Nfyvyg)
+
 **b. Post a link to the completed lab report your class hub GitHub repo.**
